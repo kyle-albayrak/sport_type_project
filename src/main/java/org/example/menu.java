@@ -8,10 +8,13 @@ public class menu {
     static Scanner s1 = new Scanner(System.in);
     static Menu_Service m1 = new Menu_Service();
     static Service_Class se1 = new Service_Class();
+    static ConnectionClass cc1 = new ConnectionClass();
     static String username = "";
     static int decision = 0;
     static Boolean a = true;
     public static void main(String[] args) {
+
+
 
         //do {
             //a = se1.SqlConnections();

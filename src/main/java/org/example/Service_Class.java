@@ -3,11 +3,6 @@ package org.example;
 public class Service_Class {
     Football f1 = new Football();
 
-    public Boolean SqlConnections() {
-        //Checks and maintains database connections
-        return true;
-    }
-
     public void TableOutput() {
         //Select * FROM Football and print to screen
     }
